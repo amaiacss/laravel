@@ -1,0 +1,24 @@
+LARAVEL
+
+---- INSTALAR LARAGON
+https://laragon.org/download/
+
+-------COMPROBAR VERSION DE PHP
+php -v
+-------INSTALAR PHP SI ES MENOR DE VERSION 7(con xamp suele instalarse la ultima version)
+
+------ INSTALAR COMPOSER (MANEJADOR DE DEPENDENCIAS) (ESTA EN GITHUB)
+		PERMITE INSTALAR PAQUETES Y COMPONENETES Y ACTUALIZACIONES, CREAR PROYECTOS
+
+----- SITUARME EN LA CARPETA DE PROYECTOS PARA CREAR UNO NUEVO
+  composer create-project --prefer-dist laravel/laravel mi-proyecto
+
+----- ENTRAR EN LA CARPETA DE mi-poyecto E INICIARLIZAR EL SERVIDOR
+  php artisan serve
+
+
+
+
+
+
+

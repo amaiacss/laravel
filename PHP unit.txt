@@ -1,0 +1,42 @@
+#---CREAR EL PROYECTO
+composer create-project --prefer-dist laravel/laravel pruebaTest1/
+
+cd pruebaTest1/
+
+#--- Ejecuta las funciones que se encuentran en test/ y realiza los test de todas las subcarpetas
+php artisan test (version laravel 8)
+php vendor/bin/phpunit (para todas las versiones)
+
+#---Si quiero que solo ejecute una de las pruebas y no todas
+php artisan test --filter nombre_del_test
+
+#---Crear una nueva prueba unitaria,  para poder realizar los tests crea un archivo por defecto en la carpeta tests/Feature/
+php artisan make:test nombre_del_archivo
+
+#----prueba unitaria dentro de la carpeta tests/Unit
+php artisan make:test nombre_archivoTest --unit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WEBS
+### ASERCIONES
+https://blog.pleets.org/article/assertions-en-phpunit
+
+
+##### EJEMPLO EN EL QUE NOS HEMOS BASADO PARA HACER EL EJERCICIO
+https://styde.net/como-escribir-pruebas-unitarias-y-de-aplicacion-tipos-diferencias/
+
+
+
